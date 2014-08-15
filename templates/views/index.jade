@@ -6,9 +6,5 @@ block content
 		h3 A community-driven repository of cloud formation templates.
 		.row: .col-sm-8.col-md-6
 			form(method='post')
-				input(type='hidden', name='action', value='search')
-				.form-group(class=validationErrors.name ? 'has-error' : null)
-					label Search
-					input(type='text', name='search.full', value=formData['search.full']).form-control
-				.form-actions
-					button(type='submit').btn.btn-primary Go
+				input(type='text', name='search.full', value='')
+				button(type='submit').btn.btn-primary Go
