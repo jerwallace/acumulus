@@ -3,8 +3,9 @@ extends ../layouts/default
 block content
 	.container: .jumbotron
 		h2 Welcome to Acumulus
-		h3 A community-driven repository of cloud formation templates.
+		p A community-driven repository of cloud formation templates.
+		p
 		.row: .col-sm-8.col-md-6
 			form(method='post')
 				input(type='text', name='search.full', value='')
-				button(type='submit').btn.btn-primary Go
+				button(type='submit').btn.btn-primary Search
