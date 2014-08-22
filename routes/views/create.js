@@ -10,7 +10,6 @@ exports = module.exports = function(req, res) {
 	
 	// Set locals
 	locals.section = 'onthewire';
-	jsoneditor
 	view.render('onthewire');
 	
 };
