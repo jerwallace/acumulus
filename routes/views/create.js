@@ -1,7 +1,7 @@
 var keystone = require('keystone'),
 	Enquiry = keystone.list('Enquiry'),
 	feed = require("feed-read"),
-	jsoneditor = require("jsoneditor");
+	jsoneditor = require("share");
 
 exports = module.exports = function(req, res) {
 	
