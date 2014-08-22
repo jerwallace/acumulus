@@ -60,11 +60,6 @@ keystone.set('nav', {
 	'contributors': 'contributors'
 });
 
-keystone.set('mongo', {
-    'users': 'users',
-    'content': ['posts', 'post-categories']
-});
-
 // Start Keystone to connect to your database and initialise the web server
 
 keystone.start();
