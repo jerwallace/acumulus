@@ -1,6 +1,5 @@
 var keystone = require('keystone'),
-	Enquiry = keystone.list('Enquiry'),
-	feed = require("feed-read");
+	Enquiry = keystone.list('Enquiry');
 
 exports = module.exports = function(req, res) {
 	
