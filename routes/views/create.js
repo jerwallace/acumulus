@@ -8,7 +8,7 @@ exports = module.exports = function(req, res) {
 		locals = res.locals;
 
 	// Open the 'hello' document, which should have type 'text':
-	client.open('hello', 'text', {host: 'localhost', port: 8000}, function(doc, error) {
+	client.open('hello', 'text', {host: '127.0.0.1', port: 8000}, function(doc, error) {
 	    // Insert some text at the start of the document (position 0):
 	    doc.submitOp({i:"Hi there!\n", p:0});
 
